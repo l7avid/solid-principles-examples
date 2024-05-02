@@ -10,6 +10,7 @@ import { MatIconModule } from '@angular/material/icon';
 import { WeatherWidgetComponent } from './widgets/weather-widget/weather-widget.component';
 import { VelocityWidgetComponent } from './widgets/velocity-widget/velocity-widget.component';
 import { WidgetContentComponent } from './widgets/widget-content/widget-content.component';
+import { WidgetBaseComponent } from './widgets/widget-base/widget-base.component';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { WidgetContentComponent } from './widgets/widget-content/widget-content.
     WeatherWidgetComponent,
     VelocityWidgetComponent,
     WidgetContentComponent,
+    WidgetBaseComponent,
   ],
   imports: [
     BrowserModule,
