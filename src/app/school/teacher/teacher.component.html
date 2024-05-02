@@ -1,2 +1,4 @@
 <h1>attendance:</h1>
-<h4>{{student | json}}</h4>
+<div *ngIf="students">
+  <h4 *ngFor="let student of students">{{student | json}}</h4>
+</div>
