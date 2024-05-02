@@ -2,6 +2,17 @@
   <span>My App</span>
 </mat-toolbar>
 <main class="content">
+  <!-- Same component, and if I want to add a third one I must modify it, so instead of that, we separate it into two different components -- open to extend, closed to modifications
   <app-weather-widget widget="wether"></app-weather-widget>
   <app-weather-widget widget="velocity"></app-weather-widget>
+  -->
+  <app-widget-content>
+    <app-weather-widget></app-weather-widget>
+  </app-widget-content>
+  <app-widget-content>
+    <app-velocity-widget></app-velocity-widget>
+  </app-widget-content>
+  <app-widget-content>
+    <p>Content is comming...</p>
+  </app-widget-content>
 </main>

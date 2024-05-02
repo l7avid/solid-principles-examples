@@ -7,12 +7,16 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatButtonModule } from '@angular/material/button';
 import { MatDividerModule } from '@angular/material/divider';
 import { MatIconModule } from '@angular/material/icon';
-import { WeatherWidgetComponent } from './weather-widget/weather-widget.component';
+import { WeatherWidgetComponent } from './widgets/weather-widget/weather-widget.component';
+import { VelocityWidgetComponent } from './widgets/velocity-widget/velocity-widget.component';
+import { WidgetContentComponent } from './widgets/widget-content/widget-content.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    WeatherWidgetComponent
+    WeatherWidgetComponent,
+    VelocityWidgetComponent,
+    WidgetContentComponent,
   ],
   imports: [
     BrowserModule,
