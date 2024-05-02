@@ -2,7 +2,8 @@
   <span>My App</span>
 </mat-toolbar>
 <main class="content">
-  <div class="widget">
+  <!-- Instead of palcing all the code in the app component, we create a component dedicated only to display the weather info
+    <div class="widget">
     <div class="header">
       <h1>Weather</h1>
       <button mat-stroked-button (click)="onExportJson()">
@@ -15,5 +16,6 @@
       <mat-icon class="widget-icon">wb_sunny</mat-icon>
       <div class="value">+25</div>
     </section>
-  </div>
+  </div>-->
+  <app-weather-widget></app-weather-widget>
 </main>
