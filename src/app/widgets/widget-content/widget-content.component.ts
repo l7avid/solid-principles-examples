@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-widget-content',
@@ -6,6 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./widget-content.component.css']
 })
 export class WidgetContentComponent {
+
+  @Input()
+  title:string = "Weather"
 
   onExportJson() {
     console.log('Export Json logic..');
