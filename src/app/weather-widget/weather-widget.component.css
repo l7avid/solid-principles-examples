@@ -1,4 +1,4 @@
-.widget {
+:host {
   display: block;
   border: #f0ebeb solid 1px;
   border-radius: 5px;

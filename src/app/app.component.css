@@ -1,4 +1,7 @@
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+
 .content {
+  font-family: 'Roboto', sans-serif;
   background-color: #fff;
   padding: 2rem;
   height: calc(100vh - 64px);
