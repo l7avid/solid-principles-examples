@@ -1,4 +1,4 @@
-export interface Phone {
+export interface SmartPhone {
   id: string,
   number: string,
   whatsapp: boolean,
